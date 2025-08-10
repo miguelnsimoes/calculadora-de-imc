@@ -12,7 +12,7 @@ form.addEventListener('submit', function(e){
     const altura = parseFloat(alturaComeco);
 
     if(isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0){
-        // Melhorado: usando a função para mostrar o erro na tela
+       
         mostrarResultado("Inválido! Preencha corretamente.", 'danger');
         return;
     }
