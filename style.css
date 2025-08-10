@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(39, 90, 73);
+    padding: 2rem;
+    display: flex;
+    justify-content: center; /*vai centrarlizar o bloco todo para o centro*/
+    align-items: center;
+    
+}
+
+.container{
+    height: 500px; 
+    width: 400px;
+    background:  rgb(255, 255, 255);
+    border-left: 45px solid white;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: none;
+    padding: 2rem;
+}
+
+.form-box{
+    margin-top: 2rem;
+}
